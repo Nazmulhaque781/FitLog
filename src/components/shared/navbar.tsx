@@ -37,7 +37,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/plan"
+            href="/my-plan"
             className="rounded-full px-4 py-2 text-[10px] font-medium text-[#85898e] hover:bg-transparent hover:text-white"
           >
             My Plan
@@ -49,7 +49,7 @@ const Navbar = () => {
       <div className="navbar-end gap-5">
         {/* Plan */}
         <Link
-          href="/plan"
+          href="/my-plan"
           className="flex items-center gap-2 bg-transparent p-0 text-[10px] text-[#aaaeb3]"
         >
           <span>Plan</span>
@@ -60,9 +60,8 @@ const Navbar = () => {
         </Link>
 
         {/* Saved */}
-
         <Link
-          href="/plan"
+          href="/my-plan"
           className="flex items-center gap-2 bg-transparent p-0 text-[10px] text-[#aaaeb3]"
         >
           <span>Saved</span>
